@@ -1,0 +1,13 @@
+./build/**
+./output/csv/IC0/**
+./output/csv/ICCG/**
+./output/csv/ILU0/**
+./output/csv/TRSV/**
+./output/log/IC0/**
+./output/log/ICCG/**
+./output/log/ILU0/**
+./output/log/TRSV/**
+./output/out/IC0/**
+./output/out/ICCG/**
+./output/out/ILU0/**
+./output/out/TRSV/**
