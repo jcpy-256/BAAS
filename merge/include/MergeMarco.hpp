@@ -1,0 +1,26 @@
+#pragma once 
+
+// wsl = 6 beta = 0.1的时候效果最后
+
+#ifndef LEVEL_WINDOW_SIZE
+#define LEVEL_WINDOW_SIZE (6)
+#endif 
+
+#ifndef AMPLIFY_FACTOR
+#define AMPLIFY_FACTOR (2.0)
+#endif 
+
+#ifndef OVER_REGULARIZATION_GMMA_PARMETER
+#define OVER_REGULARIZATION_GMMA_PARMETER (6.0)
+#endif 
+
+
+#ifndef AWARD_ALPHA_PARMETER
+#define AWARD_ALPHA_PARMETER (1.0)
+#endif 
+
+#ifndef LOAD_REGULARIZATION_BETA_PARMETER
+#define LOAD_REGULARIZATION_BETA_PARMETER (0.1)
+#endif 
+
+

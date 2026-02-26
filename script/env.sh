@@ -1,0 +1,32 @@
+# GKlib
+export GKLIB_HOME=/home/jcpy/software/GKlib
+export PATH=$PATH:${GKLIB_HOME}/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${GKLIB_HOME}/lib/
+export LIBRARY_PATH=$LIBRARY_PATH:${GKLIB_HOME}/lib/
+export C_INCLUDE_PATH=${GKLIB_HOME}/include/:$C_INCLUDE_PATH
+export CPLUS_INCLUDE_PATH=${GKLIB_HOME}/include/:$CPLUS_INCLUDE_PATH
+
+# METIS 
+export METIS_HOME=/home/jcpy/software/METIS
+export PATH=$PATH:${METIS_HOME}/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${METIS_HOME}/lib/
+export LIBRARY_PATH=$LIBRARY_PATH:${METIS_HOME}/lib/
+export C_INCLUDE_PATH=${METIS_HOME}/include/:$C_INCLUDE_PATH
+export CPLUS_INCLUDE_PATH=${METIS_HOME}/include/:$CPLUS_INCLUDE_PATH
+
+
+# mkl
+export MKL_HOME=/opt/intel/oneapi/mkl/latest
+export PATH=$PATH:${MKL_HOME}/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${MKL_HOME}/lib
+export LIBRARY_PATH=$LIBRARY_PATH:${MKL_HOME}/lib
+export C_INCLUDE_PATH=${MKL_HOME}/include/:$C_INCLUDE_PATH
+export CPLUS_INCLUDE_PATH=${MKL_HOME}/include/:$CPLUS_INCLUDE_PATH
+
+# papi
+export PAPI_HOME=/home/jcpy/software/papi/papi-7.2.0
+export PATH=$PATH:${PAPI_HOME}/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${PAPI_HOME}/lib
+export LIBRARY_PATH=$LIBRARY_PATH:${PAPI_HOME}/lib
+export C_INCLUDE_PATH=${PAPI_HOME}/include/:$C_INCLUDE_PATH
+export CPLUS_INCLUDE_PATH=${PAPI_HOME}/include/:$CPLUS_INCLUDE_PATH
